@@ -243,7 +243,7 @@ footer .container {
 /* Estilos para pantallas más pequeñas, como teléfonos móviles */
 @media only screen and (max-width: 600px) {
     header {
-        height: 100px; /* Reducir la altura del encabezado */
+        height: 70px; /* Reducir la altura del encabezado */
     }
     section,
     #hero {
@@ -283,7 +283,7 @@ footer .container {
         grid-template-columns: repeat(3, 1fr); /* Cambiar a una disposición de 3 columnas */
     }
     .search .form input{
-        width: 300px;
+        width: 200px;
     }
     .container .columns-container{
         justify-content: center;
