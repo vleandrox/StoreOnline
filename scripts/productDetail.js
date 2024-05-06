@@ -101,9 +101,7 @@ function printDetails(id) {
             <button class="btn-primary">Comprar</button>
           </div>
           <div class="bottom">
-            <button class="btn-outline" id="${
-              product.id
-            }" onclick=saveProduct(id) >Añadir al Carrito</button>
+            <button class="btn-outline" id="${product.id}" onclick=saveProduct(id) >Añadir al Carrito</button>
           </div>
         </div>
       </div>                  

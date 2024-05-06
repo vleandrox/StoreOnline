@@ -120,7 +120,7 @@ section#hero .container {
 .detproduct-card{        
     display: flex;   
     border-radius: 10px;     
-    flex-direction: column;
+    flex-direction: column;    
 }
 .product-card{ 
     display: flex;
@@ -130,6 +130,7 @@ section#hero .container {
     padding: 10px;
     border-radius: 10px;
     justify-content: space-evenly;
+    position: relative;
 }
 .product-img{
     width: 170px;
@@ -173,12 +174,26 @@ section#hero .container {
 }
 .product-price{
     align-items: center; 
-    display: flex;
+    display: flex;    
 }
 .product-price .price{
     padding: 10px;
     font-weight: 600;
 }
+.product-price .btn-eliminar {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0; /* En la parte superior */
+    right: 0; /* En la parte derecha */
+    margin: 1em;
+    width: 30px;
+    height: 30px;
+    background-image: url('/store-dom/assets/heart.svg');
+    border: none; /* Sin borde */
+    color: white;
+    background-color: white;
+    cursor: pointer;
+}
+
 /* DETALLES DE TOTAL-CARD */
 .totproduct-card{
     background-color: white;

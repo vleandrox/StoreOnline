@@ -4,8 +4,8 @@ const options = [
     { title: "Ofertas", linkTo: "./index.html",opts: ["Laptops", "Audio", "Auticulares"]},
     { title: "Productos", linkTo: "./index.html", opts: ["Formas de pago", "Envios", "Devoluciones"]},
     { title: "Marcas", linkTo: "./index.html",opts: ["Impuestos","Facturacion"]},
-    { title: "Contactos", linkTo: "./index.html" , opts: ["Pedidos", "Lista de deseo"]},
-    { title: "Acerca de", linkTo: "./index.html", opts: ["Acerca de ","Email"]  },
+    { title: "Acerca de", linkTo: "./index.html" , opts: ["Pedidos", "Lista de deseo"]},
+    { title: "Favoritos", linkTo: "./favoritos.html", opts: ["Acerca de ","Email"]  },
 ];
 
 //ELEMENTOS DOM DEL NAV

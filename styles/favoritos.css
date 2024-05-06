@@ -215,30 +215,8 @@ footer .container {
     padding: 1em 3em 1em 3em;
 }
   
-/* @media screen and (max-width: 768px){
-    .product-container{
-        width: 100%;
-        display: block;
-    }
-} */
-
-/*Para usarlos con el FLEX*/
-/* @media only screen and (max-width: 768px) {
-    .product-container {
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: space-around;
-    }
-    .product-card {
-        width: 45%; 
-        margin-bottom: 20px; 
-    }
-} */
-/* Para que los elementos se envuelvan cuando no haya suficiente espacio */
-/* Para distribuir los elementos de manera uniforme */
-/* Ajustar el ancho de los elementos individuales para que haya espacio entre ellos */
-/* Agregar un margen inferior para separar los elementos */
-
+ 
+ 
 
 /* Estilos para pantallas más pequeñas, como teléfonos móviles */
 @media only screen and (max-width: 600px) {
@@ -250,7 +228,7 @@ footer .container {
         height: 200px; /* Reducir la altura de las secciones */
     }
     .product-container {
-        grid-template-columns: repeat(2, 1fr); /* Cambiar a una disposición de 2 columnas */
+        grid-template-columns: repeat(1, 1fr); /* Cambiar a una disposición de 2 columnas */
     }
     .product-img {
         height: 150px; /* Reducir el tamaño de la imagen del producto */
@@ -280,7 +258,7 @@ footer .container {
 /* Estilos para pantallas medianas, como tabletas */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .product-container {
-        grid-template-columns: repeat(3, 1fr); /* Cambiar a una disposición de 3 columnas */
+        grid-template-columns: repeat(2, 1fr); /* Cambiar a una disposición de 3 columnas */
     }
     .search .form input{
         width: 300px;

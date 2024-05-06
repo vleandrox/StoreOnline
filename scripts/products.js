@@ -230,7 +230,7 @@ const imagenProd8=["./assets/nintendo1.jfif","./assets/nintendo2.jfif","./assets
 
 const prod1 = new Product("P001LM","Laptop Mackbook 15'","1600","50",imagenProd1,"True","Tiendamia",["Plomo", "Negro", "Blanco","Azul"],"MacBook 15' 2024 M3")
 const prod2 = new Product("P002TL","Tablet Lenovo 4GB 128GB","1000","20",imagenProd2,"True","Tiendamia",["Plomo", "Negro", "Blanco","Azul"],"Tablet Lenovo");
-const prod3 = new Product("P003MG","Motorola G54","650","40",imagenProd3,"True","Tiendamia",["Plomo", "Negro", "Blanco","Azul"],"Motog G54");
+const prod3 = new Product("P003MG","Motorola G54 4GB 256GB","650","40",imagenProd3,"True","Tiendamia",["Plomo", "Negro", "Blanco","Azul"],"Motog G54");
 const prod4 = new Product("P004AP","AirPods Pro","500","30",imagenProd4,"True","Tiendamia",["Plomo", "Negro", "Blanco","Azul"],"Audifonos Bluetoh")
 const prod5 = new Product("P005TC","Teclado Gamer ","200","20",imagenProd5,"True","Tiendamia",["Plomo", "Negro", "Blanco","Azul"],"Teclado Mecanico")
 const prod6 = new Product("P006MI","Mouse","120","45",imagenProd6,"True","Tiendamia",["Plomo", "Negro", "Blanco","Azul"],"Mouse Gamer")
