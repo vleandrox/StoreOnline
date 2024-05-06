@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Virtual</title>
+  <link rel="stylesheet" href="styles/cart.css">
+
+  <!-- Agregando Fuentes GoogleFonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="search">
+      <a class="logo" href="./index.html">
+        <img src="assets/tiendamia-logo.svg" width="218" alt="Logo store">
+      </a>
+      <div class="form">
+        <form>
+          <input type="text" placeholder="Search" id="search" />
+        </form>
+      </div>
+      <div class="social">
+        <ul>
+          <li><img src="assets/facebook.png" alt="facebook"></li>
+          <li><img src="assets/instagram.png" alt="instagram"></li>
+          <li><img src="assets/shopping-cart.png" alt="carrito"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav" id="nav">
+      <!-- <ul >
+                <li><a href="#">Ofertas de la semana</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Marcas</a></li>
+                <li><a href="#">Contactos</a></li>
+            </ul> -->
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <div class="title-container">
+        <span>Mi</span>
+        <span>Carrito</span>
+      </div>
+    </div>
+  </section>
+  
+  <main>
+    <div class="container">
+      <div class="cartproduct-container" id="mensajeFinal">
+        <article class="detproduct-card" id="cartproducts">
+          <!-- <div class="product-card">
+            <img src="assets/macbook15-1.jpg" alt="" class="product-img">
+            <div class="product-info">
+              <span class="product-title">Macbook Pro 15'4</span>
+              <span class="product-color">Space Gray</span>
+              <span class="product-description">Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+                archivos
+                de texto</span>
+              <div class="product-quantity">
+                <input type="text" class="btn-outline">
+              </div>
+            </div>
+            <div class="product-price">
+              <span class="price">S/.1750</span>
+            </div>
+          </div> -->          
+        </article>
+        <article class="totproduct-card" id="totalcart">
+          <span class="titulo-resumen">Resumen del Pedido</span>
+          <div class="totproduct-price" >
+            <span class="total-resumen">Total</span>
+            <span class="precio-resumen" id="totalCarrito"> S/. 0 </span>
+          </div>
+          <div class="product-tax-policy">Incluye impuesto País y percepción AFIP</div>
+          <div class="product-comprar">
+            <button class="button-comprar" onclick="finalizarCompra(event)" id="buyProducts"> Comprar</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="columns-container" id="footer">
+      </div>
+      <div class="copyright">Curso de HTML + CSS 2023</div>
+    </div>
+  </footer>
+  <!-- <script src="scripts/products.js"></script> -->
+  <script src="scripts/layouts.js"></script>
+  <script src="scripts/products.js"></script>
+  <!-- <script src="scripts/productCards.js"></script> -->
+  <script src="scripts/filterProduct.js"></script>
+  <script src="scripts/cart.js"></script>
+  <script src="scripts/buy.js"></script>
+</body>
+
+</html>
